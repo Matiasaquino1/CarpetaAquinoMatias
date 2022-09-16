@@ -1,0 +1,38 @@
+body{
+    background-color: red;}
+
+.nav{
+
+}
+.cambiar{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 20px;
+}
+.text{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.go{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: medium;
+}
+
+.texto{
+    text-align: center;
+    text-overflow: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 175px;
+}
