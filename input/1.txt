@@ -1,0 +1,53 @@
+    <div class="header">
+        <header class="nav">
+            <button id="change">Cambiar texto</button>
+            <input
+            type="text"
+            id="textodom"
+            class="esconder"
+            placeholder="escribir texto"
+          />
+            <button id="go" class="esconder">GO!</button>
+        </header>
+            <h1 class="txt">TEXTO</h1>
+    </div> 
+
+style
+body{
+    background-color: red;}
+
+.nav{
+
+}
+.change{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 20px;
+}
+.text{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.go{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: medium;
+}
+
+.txt{
+    text-align: center;
+    text-overflow: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 170px;
+}
