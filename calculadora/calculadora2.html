@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora2</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <div id="Num-Anterior"></div>
+            <div id="Num-Actual"></div>
+        </div>
+        <input type="text" id="resultado">
+        <br>
+        <br>
+        <button id="btn-1" onclick="pres(1)">1</button>
+        <button id="btn-2" onclick="pres(2)">2</button>
+        <button id="btn-3" onclick="pres(3)">3</button>
+        <br>
+        <br>
+        <button id="btn-4" onclick="pres(4)">4</button>
+        <button id="btn-5" onclick="pres(5)">5</button>
+        <button id="btn-6" onclick="pres(6)">6</button>
+        <br>
+        <br>
+        <button id="btn-7" onclick="pres(7)">7</button>
+        <button id="btn-8" onclick="pres(8)">8</button>
+        <button id="btn-9" onclick="pres(9)">9</button>
+
+        <br>
+        <br>
+        <button onclick="nav.borrar">&larr;</button>
+        <button onclick="operar('+')">+</button>
+        <button onclick="operar('*')">*</button>
+        <button onclick="operar('/')">/</button>
+        <button onclick="operar('-')">-</button>
+        <button onclick="igualar()">=<button>
+        
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
